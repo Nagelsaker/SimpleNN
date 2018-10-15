@@ -3,7 +3,9 @@ SimpleNN was a summer project that I worked on in July/August of 2018. The prima
 
 _______________________________________________________________________________________________
 Activation functions:
+
 Hidden layers   -   Softplus
+
 Output layer    -   Softmax
 
 Input to Output example:
