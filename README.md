@@ -22,6 +22,7 @@ The initial goal was to create a neural network from scratch, that could read ha
 I first tried implementing a binary counter, but I encountered some problems with the necessary output function. To achieve wanted output from the network, I had to use an output function that delivered multiple active neurons (see in/out example below), so I choose the Sigmoid function 1/(1+e^x ). However the Sigmoid comes with several drawbacks, such as the vanishing gradient and exploding gradient problems.
 
 IN = 0100
+
 OUT = 0101
 
 I could not get the network to work no matter how I changed the hyperparameters, but once I replaced the binary counter problem with a simpler counter, the network worked almost immediately. Since the simpler counter only requires one of the output neurons to be 1, I swapped Sigmoid activation with Softmax. Now all output neurons are summed to 1, called probability distribution. After reading through numerous forums online, I discovered that most people avoid using Sigmoid activation due to its flaws.
