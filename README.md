@@ -27,3 +27,8 @@ OUT = 0101
 I could not get the network to work no matter how I changed the hyperparameters, but once I replaced the binary counter problem with a simpler counter, the network worked almost immediately. Since the simpler counter only requires one of the output neurons to be 1, I swapped Sigmoid activation with Softmax. Now all output neurons are summed to 1, called probability distribution. After reading through numerous forums online, I discovered that most people avoid using Sigmoid activation due to its flaws.
 
 To convert my simple network to a binary counter, I simply have to add two more layers converting the binary in- and output-values to strings containing only one active neuron.
+
+Since this neural network is both trained and tested on the same data, it can hardly be called machine learning, however this project was a great exercise to learn the concepts of Neural Networks. By using already existing api's like TensorFlow with Keras, you can easily create far superior networks. For instance I was able to create a network that could read handwritten MNIST digits by using Python with TensorFlow + Keras, with less than 30 lines of code.
+
+
+
