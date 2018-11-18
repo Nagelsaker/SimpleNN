@@ -29,7 +29,4 @@ I could not get the network to work no matter how I changed the hyperparameters,
 
 To convert my simple network to a binary counter, I simply have to add two more layers converting the binary in- and output-values to strings containing only one active neuron.
 
-Since this neural network is both trained and tested on the same data, it can hardly be called machine learning, however this project was a great exercise to learn the concepts of Neural Networks. By using already existing api's like TensorFlow with Keras, you can easily create far superior networks. For instance I was able to create a network that could read handwritten MNIST digits by using Python with TensorFlow + Keras, with less than 30 lines of code.
-
-
-
+Since this neural network is both trained and tested on the same data, it can hardly be called machine learning, however this project was a great exercise to learn the concepts of Neural Networks. By using already existing API's e.g. TensorFlow with Keras, you can easily create far superior networks. For instance I was able to create a network that could read handwritten MNIST digits by using Python with TensorFlow + Keras, with less than 30 lines of code. The operation time was also drastically redused.
